@@ -1,0 +1,89 @@
+/* NAVBAR */
+
+#navbar {
+  height: 200px;
+}
+
+#navbar-container {
+  flex-direction: column;
+  padding: 7px;
+}
+
+#navbar-itens {
+  flex-direction: column;
+  text-align: center;
+}
+
+#navbar-itens li:nth-child(2) {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  width: 100%;
+}
+
+/* SHOWCASE */
+
+#showcase {
+  padding: 55px;
+}
+
+/* CLIENTES */
+
+#clientes-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.client {
+  width: 50%;
+}
+
+/* SOBRE */
+
+#features-container {
+  grid-template-columns: 1fr;
+}
+
+#features-contaier .feature:nth-child(2) {
+  margin: 15px 0;
+}
+
+/* PRUDTOS */
+
+#product-container {
+  flex-direction: column;
+}
+
+#items {
+  width: 90%;
+}
+
+.item {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+/* TESTEMUNHAS */
+
+#testmionals {
+  flex-direction: column;
+  text-align: center;
+}
+
+/* GALERIA */
+
+#gallery-container {
+  grid-template-columns: 1fr;
+}
+
+/* FOOTER */
+#footer {
+  color: #eee;
+  background: #222;
+  text-align: center;
+}
+
+.fab {
+  padding: 25px;
+  font-size: 25px;
+  color: #eee;
+}

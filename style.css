@@ -223,14 +223,6 @@ a {
   background: #222;
   color: #eee;
   padding: 50px;
-  cursor: grab;
-}
-
-#testimonials-container :hover {
-  width: 100%;
-  background: #222;
-  color: #eee;
-  padding: 50px;
 }
 
 #testimonials-container {
@@ -241,11 +233,20 @@ a {
   align-items: center;
 }
 
+#testimonials-container :hover {
+  width: 100%;
+  background: #222;
+  color: #eee;
+  padding: 50px;
+  cursor: grab;
+}
+
 .testimonial .testimional-image {
   height: 200px;
   width: auto;
   border-radius: 50%;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 /* GALERIA */
